@@ -5,7 +5,7 @@ const showBigBackground = () => {
     setTimeout(() => {
         $(".introduce").fadeIn(1000, "linear");
         canEsc = true;
-    }, 4000)
+    }, 3000)
 }
 $(document).keydown(function(event){
     if (event.key == "Escape" && canEsc) {       //esc
