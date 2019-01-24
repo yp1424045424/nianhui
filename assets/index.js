@@ -7,7 +7,6 @@ const showBigBackground = () => {
         canEsc = true;
     }, 3000)
 }
-console.log(123)
 $(document).keydown(function(event){
     if (event.key == "Escape" && canEsc) {       //esc
         isReady = true;
